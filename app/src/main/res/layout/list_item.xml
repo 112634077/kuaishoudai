@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/ten"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/five">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="@dimen/sixty"
+            android:layout_height="@dimen/sixty"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            app:srcCompat="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten"
+            android:layout_marginStart="@dimen/ten"
+            android:layout_alignTop="@+id/item_image"
+            android:layout_toRightOf="@+id/item_image"
+            android:layout_toEndOf="@+id/item_image"
+            android:layout_marginTop="@dimen/two"
+            android:textSize="@dimen/twenty_sp"
+            android:text="机遇钱包" />
+
+        <TextView
+            android:id="@+id/item_quota_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/item_title"
+            android:layout_alignStart="@+id/item_title"
+            android:layout_below="@+id/item_title"
+            android:text="申请额度"/>
+
+        <TextView
+            android:id="@+id/item_rate_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/item_title"
+            android:layout_alignStart="@+id/item_title"
+            android:layout_below="@+id/item_quota_text"
+            android:text="日利率" />
+
+
+        <TextView
+            android:id="@+id/item_quota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item_quota_text"
+            android:layout_toRightOf="@+id/item_quota_text"
+            android:layout_toEndOf="@+id/item_quota_text"
+            android:textColor="@color/colorRed"
+            />
+
+        <TextView
+            android:id="@+id/item_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item_rate_text"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/item_rate_text"
+            android:layout_toRightOf="@+id/item_rate_text"
+            android:textColor="@color/colorRed" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/item_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ten"
+        android:text="芝麻分580以上,有身份证即可贷"
+        />
+
+</LinearLayout>

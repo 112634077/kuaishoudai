@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">kuaishoudai</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">额度高</string>
+    <string name="title_notifications">利率低</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!--String menu related -->
+    <string name="camera">会员</string>
+    <string name="customer">客服</string>
+    <string name="gallery">赚钱</string>
+    <string name="update">更新</string>
+    <string name="disclaimer">免责声明</string>
+    <string name="about">关于我们</string>
+
+    <string name="setup">设置</string>
+
+    <string name="login">登陆</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">手机号</string>
+    <string name="verification">验证码</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登陆</string>
+    <string name="register">注册</string>
+    <string name="forget">忘记密码</string>
+    <string name="reset">重置密码</string>
+    <string name="action_sign_in_short">s</string>
+    <string name="error_invalid_email">手机号码不正确</string>
+    <string name="error_invalid_password">密码至少八位数</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_incorrect_required">密码不能为空</string>
+    <string name="error_incorrect_verification">验证码不能为空</string>
+    <string name="error_field_required">手机号码不能为空</string>
+
+    <string name="get_verification">获取验证码</string>
+    <string name="login_user">登陆/注册</string>
+    <string name="share">分享</string>
+    <string name="permission_rationale">提供手机号码需要联系人权限</string>
+    <string name="title_activity_register2">Sign in</string>
+
+    <string name="customer_tishi">请扫描上面二维码开通会员</string>
+    <string name="customer_error">会员开通失败请联系客服帮您解决</string>
+
+    <string name="wx_tishi">扫描二维码或者微信搜索微信号：zhangyun_798 添加微信客服</string>
+
+    <string name="gallery_tishi">扫描上面二维码邀请支付宝新用户即可获得10元的收益</string>
+
+    <string name="soft_updating">更新</string>
+    <string name="soft_update_info">检测到新的版本，需要更新吗</string>
+    <string name="soft_update_cancel">取消更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_update_no">已是最新版本</string>
+    <string name="list_tishi">提示</string>
+    <string name="list_messer">您还不是会员，不能使用此服务！</string>
+    <string name="list_cancel">取消</string>
+    <string name="list_camera">开通会员</string>
+
+    <string name="about_guangyu">快手贷1.0.0</string>
+</resources>

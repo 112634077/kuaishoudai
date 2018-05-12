@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_member_black_24dp"
+            android:title="@string/camera" />
+
+        <item
+            android:id="@+id/nav_customer"
+            android:icon="@drawable/ic_customer_black_24dp"
+            android:title="@string/customer" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="@string/gallery" />
+
+    <item android:title="@string/setup">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="@string/share" />
+
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@drawable/ic_menu_toupdate"
+                android:title="@string/update" />
+
+            <item
+                android:id="@+id/nav_disclaimer"
+                android:icon="@drawable/ic_menu_isclaimer"
+                android:title="@string/disclaimer" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="@string/about" />
+
+        </menu>
+    </item>
+
+</menu>
